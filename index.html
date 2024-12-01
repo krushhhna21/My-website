@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
+    <title>My First Website</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my personal website. Explore and learn more about me!</p>
+        </section>
+
+        <!-- About Section -->
+		<button id="customButton">Click Me</button>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Krushna Chalwad, Welcome to my website please let me know if there are any suggestions or issues.</p>
+        </section>
+
+        <!-- Contact Section -->
+		<div id="timeDisplay" style="margin-top: 10px; font-weight: bold;"></div>
+        <section id="contact">
+            <h2>Contact Me</h2>
+			<p>My instagram ID is @krushhhna21 or you can contact me via email (krushnachalwad21@gmail.com</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/image1.jpg" alt="Gallery Image 1" class="active">
+                <img src="images/image2.jpg" alt="Gallery Image 2">
+                <img src="images/image3.jpg" alt="Gallery Image 3">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 My First Website</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
